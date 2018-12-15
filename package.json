@@ -1,0 +1,21 @@
+{
+  "name": "create-referrals",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Creates a new referral code for a specific mobile phone number.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "friendswithsitters",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.376.0",
+    "chalk": "^2.4.1",
+    "dotenv": "^6.2.0",
+    "google-libphonenumber": "^3.2.1",
+    "minimist": "^1.2.0",
+    "shortid": "^2.2.14"
+  }
+}
