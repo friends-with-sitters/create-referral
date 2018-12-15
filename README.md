@@ -14,3 +14,10 @@ AWS_PROFILE #if a profile is configured
 AWS_REGION
 ```
 
+## Creating a Referral
+
+Once `npm install` has been executed, you can create a referral by providing a mobile phone number in either E.164 or national format and running the following command:
+
+```
+npm start -- --number 07500XXXXXX
+```
